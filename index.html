@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<title>Ilijah's Site</title>
+
+</head>
+<style>
+    @font-face {
+        font-family: Pacifica; src: url("fonts/pacificaconreg.ttf");
+    }
+    @font-face {
+        font-family: Dinlight; src: url("fonts/dinlight.ttf");
+    }
+    
+    body{
+        margin: 0 0 0 0;
+    }
+    
+    #home-page{
+    margin: 0 0 0 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+       
+    }
+    
+       .videobg-container {
+        
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: 0 0 0 0;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+  
+    }
+    
+    .mainbg {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    }
+    
+    .logo{
+        position:absolute;
+        left: 10%;
+        top: ;
+        right: 0;
+        margin: 50px 0 0 0;
+        z-index: 2;
+        width: 150px;
+        height: auto;
+    }
+    
+    
+    .container-tagline{
+        position: absolute;
+        left: 25%;
+        right: 0;
+        top: 60%;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+    
+    }
+        h1{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        font-family: Pacifica;
+        height: auto;
+        width: 70%;
+        font-size: 350%;
+        font-weight: normal bold;
+        vertical-align: middle;
+        background: white;
+        color: #207EA9;
+        z-index: 1}
+    
+     .subheading{
+        position: relative;
+        left: 0;
+        top: 5px;
+         width: 100%;
+         height: auto;
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Safari */
+        transform: rotate(0deg) scale(1, 1) translate(0px, 0px);
+        z-index: 1;
+    }
+    
+    .vectorsmall{
+        position: relative;
+        width: 50px;
+        margin: 0 0 0 0;
+        
+    }
+    
+    h2{
+        position: absolute;
+        left: 60px;
+        right: 0;
+        top: 5px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        font-family: Dinlight;
+        width: 100%;
+        height: auto;
+        font-size: 150%;
+        font-weight: normal;
+        background: none;
+        color: #605E5E;
+        z-index: 1}
+    
+  
+    .white-overlay{
+        position: absolute;
+        Margin: 0 0 0 -20%;
+        width: 100%;
+        height: 100%;
+        background: white;
+        opacity: .9;
+        z-index: ;
+    }
+        
+        .blue-overlay{
+        position: absolute;
+        margin: 0 0 0 80%;
+        width: 100%;
+        height: 100%;
+        background: #2B6CA3;
+        opacity: .8;
+            
+    }
+    
+    .vectormain{
+        position: absolute;
+        left: 0%;
+        top: 20%;
+        z-index: 100;
+        -ms-transform: rotate(20deg); /* IE 9 */
+        -webkit-transform: rotate(20deg); /* Safari */
+        transform: rotate(20deg) scale(.4, 1.8);
+        z-index:1;
+    }
+    
+
+
+    }
+ 
+     
+    .menu{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    color: black;
+    z-index: 1;
+    height: 100%;
+    margin: 0 0 0 0;
+             
+    }
+    
+
+
+    .menu-list-container{
+        background: none;
+        position: absolute;
+        left: 25%;
+        top: 30%;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 100;
+        font-family: pacifica;
+        color: red;
+        font-weight: ;
+        font-size: 27px;
+        letter-spacing: 1px;
+        line-height: 300%;
+        text-decoration: none;
+        list-style-type: none;
+        
+    }
+    
+        .menu-bg{
+        background: white;
+        opacity: 1;
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 300px;
+        
+    }
+    
+    .menu-list{
+        list-style-type: none;
+    }
+    
+    .menubttn{
+        position: absolute;
+        top: 97%;
+        z-index: 5;
+        
+        
+        
+    }
+
+    .btn-menu{
+        position: absolute;
+        margin: 0 0 0 0;
+        z-index: 100;
+        font-family: pacifica;
+        color: white;
+        font-weight: ;
+        font-size: 25px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        background-color: black;
+        padding: 5px 20px 5px 20px ;
+        
+    }
+    
+    .menu-link{
+        text-decoration: none;
+        color: black;
+        
+    }
+       
+    #menu{
+        display: none;
+    }
+</style>
+    
+    
+    
+<body> 
+    
+    <div id="home-page" background="images/bgimage.jpg">
+    
+  <div class="vectormain"> <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 541.04 311.16"><defs><style>.cls-1{fill: none;}.cls-1{stroke:#664b00; opacity: .1; stroke-width: 2px; stroke-miterlimit:10;}.cls-2{fill:none;stroke:#664b00; opacity: .1; stroke-width: .5px; stroke-miterlimit:10;}</style></defs><title>parrallel</title><rect class="cls-1" x="210.74" y="795.8" width="219.02" height="219.02" transform="translate(569.28 -711.02) rotate(45)"/><rect class="cls-1" x="285.75" y="795.8" width="219.02" height="219.02" transform="translate(591.25 -764.06) rotate(45)"/><rect class="cls-1" x="365.61" y="795.8" width="219.02" height="219.02" transform="translate(614.64 -820.53) rotate(45)"/><rect class="cls-1" x="440.62" y="795.8" width="219.02" height="219.02" transform="translate(636.61 -873.57) rotate(45)"/><line class="cls-2" x1="0.71" y1="155.58" x2="540.33" y2="155.58"/></svg>
+      </div> 
+    
+    
+      
+    
+    
+    <div class="videobg-container"> <video class="mainbg" loop autoplay>
+  <source src="assets/videobg.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+    </div> 
+  
+    
+<div class="container-tagline">
+    
+    <h1 class="tagline"><span>Changing Everything</span></h1>
+    
+        <div class="subheading"> 
+
+            <svg class="vectorsmall" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 541.04 311.16"><defs><style>.cls-3{fill: none;}.cls-3,.cls-4{stroke:#605E5E;stroke-width: 5px; stroke-miterlimit:10;}.cls-4{fill:none;}</style></defs><title>parrallel</title><rect class="cls-3" x="210.74" y="795.8" width="219.02" height="219.02" transform="translate(569.28 -711.02) rotate(45)"/><rect class="cls-3" x="285.75" y="795.8" width="219.02" height="219.02" transform="translate(591.25 -764.06) rotate(45)"/><rect class="cls-3" x="365.61" y="795.8" width="219.02" height="219.02" transform="translate(614.64 -820.53) rotate(45)"/><rect class="cls-3" x="440.62" y="795.8" width="219.02" height="219.02" transform="translate(636.61 -873.57) rotate(45)"/><line class="cls-4" x1="0.71" y1="155.58" x2="540.33" y2="155.58"/></svg>
+
+           <h2><span class="tagline2">Turnkey Event Services & Technical Support</span></h2>
+        </div> 
+  
+    </div>
+    
+    <img class="logo" src="images/logoblue.png" alt="jetlogo:">
+    
+    <div class="white-overlay"> 
+    </div>
+    <div class="blue-overlay">
+    </div>
+
+    <div id="menu" class="menu">
+        <nav class="main-nav">
+	   <a href="#" class="btn-menu">
+					<span class="btn-menu-open">MENU</span>
+				<span class="btn-menu-close"><i></i></span>
+	   </a>
+        
+            
+        <div class="menu-bg">
+            
+	       <div class="menu-list-container">
+		
+		      <ul class=menu-list>
+                <li class="active"><a class="menu-link" href="http://www.medialoft.com/">Home</a></li>
+                <li class=""><a class="menu-link" href="http://www.medialoft.com/work">Work</a></li>
+                <li class=""><a class="menu-link" href="http://www.medialoft.com/services">Services</a></li>
+                <li class=""><a class="menu-link" href="http://www.medialoft.com/blog">Blog</a></li>
+                <li class=""><a class="menu-link" href="http://www.medialoft.com/about">About</a></li>
+                <li class=""><a class="menu-link" href="http://www.medialoft.com/contact">Contact</a></li>
+              </ul>
+	       </div>
+            
+        </div>
+        
+        </nav>
+    
+    </div>
+    
+        <div>
+        
+        <div class="menubttn">
+	       <a href="#" class="btn-menu">
+					<span class="btn-menu-open">MENU</span>
+				<span class="btn-menu-close"><i></i></span>
+	       </a>
+        </div>
+        
+        </div>
+    
+    
+    
+    
+    
+</body>
+</html>

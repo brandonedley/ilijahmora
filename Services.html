@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ilijah's Site</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+
+
+
+<body>
+
+    <div id="services-page" background="images/bgimage.jpg">
+
+        <div>
+
+            <img class="logo" src="images/jetlogonew.png" alt="jetlogo:">
+
+            <div class="menubttn">
+                <a href="#" class="btn-menu">
+                    <span class="btn-menu-open">MENU</span>
+                    <span class="btn-menu-close"><i></i></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="lower-nav">
+            <ul>
+                <div class="nav">
+                    <li class="nav-item" id="li-stagehands"><a href="#">Stagehands</a></li>
+                    <li class="nav-item" id="li-techs"><a href="#">Technicians</a></li>
+                    <li class="nav-item" id="li-drivers"><a href="#">Drivers</a></li>
+                    <li class="nav-item" id="li-pa"><a href="#">Production Assistants</a></li>
+                    <li class="nav-item" id="li-runners"><a href="#">Runners</a></li>
+                </div>
+            </ul>
+
+        </div>
+
+        <div class="slice-border-stagehands">hello</div>
+        <div class="slice-border-techs">hello</div>
+        <div class="slice-border-drivers">hello</div>
+        <div class="slice-border-pa">hello</div>
+        <div class="slice-border-runners">hello</div>
+
+        <div class="service-summary">
+            <div class="service-global-overlay">hellohello hello</div>
+
+            <div id="stagehand-slice" class="slice" style="background-color:darkred;">
+                <div class="service-img-container">
+                    <div class="techbg1" style="background: url(images/stagehands.jpg);"></div>
+                </div>
+                <h1 class="service-list service-list-stagehands">01
+                    <h2 class="service-list-2 service-list-2-stagehands">Stagehands</h2>
+                </h1>
+                <div id="hover-target-stagehands" class="hover-target"></div>
+
+            </div>
+
+            <div id="tech-slice" class="slice" style="overflow:hidden;">
+                <div class="service-img-container">
+                    <div class="techbg2" style="background: url(images/techs.jpg);"></div>
+                </div>
+                <h1 class="service-list service-list-techs">02
+                    <h2 class="service-list-2 service-list-2-techs">Technicians</h2>
+                </h1>
+                <div id="hover-target-techs" class="hover-target"></div>
+            </div>
+
+            <div id="driver-slice" class="slice" style="background-color:green;">
+                <div class="service-img-container">
+                    <div class="techbg3" style="background: url(images/drivers2.jpg);"></div>
+                </div>
+                <h1 class="service-list service-list-drivers">03
+                    <h2 class="service-list-2 service-list-2-drivers">Drivers</h2>
+                </h1>
+                <div id="hover-target-drivers" class="hover-target"></div>
+            </div>
+
+            <div id="pa-slice" class="slice" style="background-color:purple;">
+                <div class="service-img-container">
+                    <div class="techbg4" style="background: url(images/productionassistant2.jpg);"></div>
+                </div>
+                <h1 class="service-list service-list-pa">04
+                    <h2 class="service-list-2 service-list-2-pa">Production Assistants</h2>
+                </h1>
+                <div id="hover-target-pa" class="hover-target"></div>
+            </div>
+
+            <div id="runner-slice" class="slice" style="background-color:yellow;">
+                <div class="service-img-container">
+                    <div class="techbg5" style="background: url(images/runner.jpg);"></div>
+                </div>
+                <h1 class="service-list service-list-runners">05
+                    <h2 class="service-list-2 service-list-2-runners">Runners</h2>
+                </h1>
+                <div id="hover-target-runners" class="hover-target"></div>
+            </div>
+
+        </div>
+
+
+
+        <div id="service-stagehands" class="video-services-container">
+
+            <div class="service-container">
+                <div class="service-overlay" style="background-color:darkred;">
+                </div>
+                <video class="servicebg" loop autoplay>
+                <source src="assets/videobg.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="service-text-container">
+                <h1 class="service-title">01</h1>
+                <h2 class="service-title-2">Staging</h2>
+                <p class="service-description">Staging services are the future of production. We have you covered.</p>
+            </div>
+
+        </div>
+
+
+        <div id="service-techs" class="video-services-container">
+
+            <div class="service-container" background="images/bgimage.jpg">
+                <div class="service-overlay" style="background-color:#2B6CA3; opacity: .2;">
+                </div>
+                <video class="servicebg" loop autoplay background="images/bgimage.jpg">
+                <source src="assets/videobg.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="service-text-container">
+                <h1 class="service-title">02</h1>
+                <h2 class="service-title-2">Technicians</h2>
+                <p class="service-description">Technicians are the future of production. We have you covered.</p>
+            </div>
+
+        </div>
+
+
+        <div id="service-drivers" class="video-services-container">
+
+            <div class="service-container">
+                <div class="service-overlay" style="background-color:#cc9900;">
+                </div>
+                <video class="servicebg" loop autoplay>
+                <source src="assets/videobg.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="service-text-container">
+                <h1 class="service-title">03</h1>
+                <h2 class="service-title-2">Drivers</h2>
+                <p class="service-description">Drivers are the future of production. We have you covered.</p>
+            </div>
+
+        </div>
+
+
+        <div id="service-pa" class="video-services-container">
+
+            <div class="service-container">
+                <div class="service-overlay" style="background-color:darkcyan;">
+                </div>
+                <video class="servicebg" loop autoplay>
+                <source src="assets/videobg.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="service-text-container">
+                <h1 class="service-title">04</h1>
+                <h2 class="service-title-2">Production Assistants</h2>
+                <p class="service-description">production assistants are the future of production. We have you covered.</p>
+            </div>
+
+        </div>
+
+
+        <div id="service-runners" class="video-services-container">
+
+            <div class="service-container">
+                <div class="service-overlay" style="background-color:#862d2d;">
+                </div>
+                <video class="servicebg" loop autoplay>
+                <source src="assets/videobg.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="service-text-container">
+                <h1 class="service-title">05</h1>
+                <h2 class="service-title-2">Runners</h2>
+                <p class="service-description">runners are the future of production. We have you covered.</p>
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script>
+        $("#hover-target-stagehands").hover(function(reveal) {
+            $("#service-stagehands").stop().show();
+        }, function(hide) {
+            $("#service-stagehands").stop().hide();
+        });
+    </script>
+
+    <script>
+        $("#hover-target-techs").hover(function(reveal) {
+            $("#service-techs").stop().show();
+        }, function(hide) {
+            $("#service-techs").stop().hide();
+        });
+    </script>
+
+    <script>
+        $("#hover-target-drivers").hover(function(reveal) {
+            $("#service-drivers").stop().show();
+        }, function(hide) {
+            $("#service-drivers").stop().hide();
+        });
+    </script>
+
+
+    <script>
+        $("#hover-target-pa").hover(function(reveal) {
+            $("#service-pa").stop().show();
+        }, function(hide) {
+            $("#service-pa").stop().hide();
+        });
+    </script>
+
+    <script>
+        $("#hover-target-runners").hover(function(reveal) {
+            $("#service-runners").stop().show();
+        }, function(hide) {
+            $("#service-runners").stop().hide();
+        });
+    </script>
+
+
+
+  <script type="text/javascript">
+        jQuery(function() {
+            jQuery("#li-stagehands").click(function() {
+               $("#service-stagehands").siblings(".video-services-container").hide();
+                jQuery("#service-stagehands").toggle("fast");
+                
+                //jQuery(".service-list")
+            });
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        jQuery(function() {
+            jQuery("#li-techs").click(function() {
+                $("#service-techs").siblings(".video-services-container").hide();
+                jQuery("#service-techs").toggle("fast");
+               
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        jQuery(function() {
+            jQuery("#li-drivers").click(function() {
+                  $("#service-drivers").siblings(".video-services-container").hide();
+                jQuery("#service-drivers").toggle("fast");
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        jQuery(function() {
+            jQuery("#li-pa").click(function() {
+                  $("#service-pa").siblings(".video-services-container").hide();
+                jQuery("#service-pa").toggle("fast");
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        jQuery(function() {
+            jQuery("#li-runners").click(function() {
+                 $("#service-runners").siblings(".video-services-container").hide();
+                jQuery("#service-runners").toggle("fast");
+            });
+        }); 
+    </script>
+    
+    <script>
+        //vertical text animations
+        //stagehands
+        $("#hover-target-stagehands").hover(function(reveal) {
+            $(".service-list-2-stagehands")
+                .stop(true,true)
+                .animate({
+                opacity: .7,
+                top: "-=125px",
+            });
+
+            $(".service-list-stagehands").stop().animate({
+                opacity: 0,
+            });
+
+
+        }, function(hide) {
+            $(".service-list-stagehands,.service-list-2-stagehands")
+            .stop(true,true)
+            .animate({
+                top: "+=125px",
+            });
+
+            $(".service-list-stagehands").stop().animate({
+                opacity: 1,
+            });
+           
+    
+            
+        });
+
+        //techs
+        $("#hover-target-techs").hover(function(reveal) {
+            $(".service-list-2-techs")
+            .stop(true, true)
+            .animate({
+                opacity: .7,
+                top: "-=125px",
+            });
+             $(".service-list-techs")
+             .stop()
+             .animate({
+                opacity: 0,
+            });
+        }, function(hide) {
+            $(".service-list-techs,.service-list-2-techs")
+            .stop(true, true)
+            .animate({
+                top: "+=125px",
+            });
+             $(".service-list-techs")
+             .stop()
+             .animate({
+                opacity: 1,
+            });
+        });
+
+         //drivers
+        $("#hover-target-drivers").hover(function(reveal) {
+            $(".service-list-2-drivers")
+                .stop(true,true)
+                .animate({
+                opacity: .7,
+                top: "-=125px",
+            });
+             $(".service-list-drivers").stop().animate({
+                opacity: 0,
+            });
+        }, function(hide) {
+            $(".service-list-drivers,.service-list-2-drivers")
+            .stop(true, true)
+            .animate({
+                opacity: 1,
+                top: "+=125px",
+            });
+             $(".service-list-drivers")
+             .stop()
+             .animate({
+                opacity: 1,
+            });
+        });
+
+         //production assistants
+        $("#hover-target-pa").hover(function(reveal) {
+            $(".service-list-2-pa")
+            .stop(true,true)
+            .animate({
+                opacity: .7,
+                top: "-=125px",
+            });
+             $(".service-list-pa")
+             .stop()
+             .animate({
+                opacity: 0,
+            });
+        }, function(hide) {
+            $(".service-list-pa,.service-list-2-pa")
+            .stop(true,true)
+            .animate({
+                opacity: 1,
+                top: "+=125px",
+            });
+             $(".service-list-pa")
+             .stop()
+             .animate({
+                opacity: 1,
+            });
+        });
+
+         //Runners
+        $("#hover-target-runners").hover(function(reveal) {
+            $(".service-list-2-runners")
+            .stop(true,true)
+            .animate({
+                opacity: .7,
+                top: "-=125px",
+            });
+            $(".service-list-runners")
+            .stop()
+            .animate({
+                opacity: 0,
+            });
+        }, function(hide) {
+            $(".service-list-2-runners")
+            .stop(true,true).animate({
+                opacity: 1,
+                top: "+=125px",
+            });
+             $(".service-list-runners").stop().animate({
+                opacity: 1,
+            });
+        });
+
+       
+    </script>
+
+   
+</body>
+
+</html>
